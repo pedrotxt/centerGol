@@ -1,0 +1,158 @@
+html, body { height: 100%; } 
+body { margin: 0; padding: 0; font: 11px Verdana, Arial, Helvetica, sans-serif; overflow-y: scroll; }
+#container { width: 950px; position: relative; margin: 0 auto; }
+* html #container { height: 100%; }
+#conteudo { padding: 0 0 57px 0; }
+#cima { width: 100%; height: 210px;	padding: 10px 0 0 0; }
+#principal { width: 570px; float: left;	padding: 0 10px 0 10px; }
+#principal_metade { width: 100%; }
+#principal_metade_esquerda { width: 280px; float: left; }
+#principal_metade_direita { width: 280px; float: right; }
+#esquerda { width: 180px; float: left; }
+#direita { width: 180px; float: right; }
+#baixo { width: 100%; position: absolute; bottom: 0; padding: 10px 0 10px 0; }
+#baixo_barra { width: 100%; height: 35px; color: #fff; text-align: center; }
+.baixo_barra_conteudo { vertical-align: -11px; }
+.clear { clear: both; }
+h1 { padding: 9px 0 0 10px; font-size: 14px; color: #fff; }
+a, a:hover, a:visited { color: #000; font-weight: bold; text-decoration: none; }
+
+#cursor { cursor: pointer; }
+#divide { padding: 10px 0 0 0; }
+#linha5 { padding: 5px 0 0 0; }
+#linha6 { padding: 6px 0 0 0; }
+#linha7 { padding: 7px 0 0 0; }
+#linha8 { padding: 8px 0 0 0; }
+#linha9 { padding: 9px 0 0 0; }
+#linha10 { padding: 10px 0 0 0; }
+#linha11 { padding: 11px 0 0 0; }
+#linha12 { padding: 12px 0 0 0; }
+#linha13 { padding: 13px 0 0 0; }
+#linha14 { padding: 14px 0 0 0; }
+#linha15 { padding: 15px 0 0 0; }
+
+#linha5 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha6 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha7 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha8 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha9 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha10 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha11 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha12 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha13 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha14 a, a:hover, a:visited { color: #000; font-weight: normal; }
+#linha15 a, a:hover, a:visited { color: #000; font-weight: normal; }
+
+.img16 { padding: 0 2px 0 0; vertical-align: -3px; }
+.img20 { padding: 0 2px 0 0; vertical-align: -5px; }
+.img25 { padding: 0 2px 0 0; vertical-align: -7px; }
+.img32 { padding: 0 2px 0 0; vertical-align: -7px; }
+.img50 { padding: 0 2px 0 0; vertical-align: -17px; }
+.medalha { padding: 0 2px 0 2px; vertical-align: -3px; }
+
+#tempo_chutar { font-weight: bold; }
+#tempo_secar { font-weight: bold; }
+#tempo_entretenimentos { font-weight: bold; } 
+.gols_rodada { width: 35px;	float: right; padding: 7px 0 0 0; }
+.gols_temporada { width: 50px; float: right; padding: 7px 0 0 0; }
+
+.align_form { width: 300px;	float: right; }
+.align_radio { padding: 0 2px 0 0; vertical-align: -2px; }
+.align_botao_mensagem_pequeno { padding: 0 0 0 10px; vertical-align: -5px; }
+.align5 { padding: 0 0 0 5px; }
+.align20 { padding: 0 0 0 20px; }
+#align_center { width: 100%; text-align: center; }
+#align_center a, a:hover, a:visited { color: #000; font-weight: normal; }
+
+a.balao { position: relative; cursor: help; z-index: 25; }
+a.balao:hover { background: transparent; z-index: 25; }
+a.balao span.balao { display: none; }
+a.balao:hover span.balao { display: block; position: absolute; top: -0.7em; left: 3em; font: 12px Verdana, arial, helvetica, sans-serif; padding: 5px 10px; border: 1px solid #999; background: #E8EBF2; color: #000; }
+
+a.balao_time { position: relative; cursor: help; z-index: 25; }
+a.balao_time:hover { background: transparent; z-index: 25; }
+a.balao_time span.balao { display: none; }
+a.balao_time:hover span.balao { display: block; position: absolute; top: -1.2em; left: -11.5em; font: 12px Verdana, arial, helvetica, sans-serif; padding: 5px 10px; border: 1px solid #999; background: #E8EBF2; color: #000; }
+
+input[type=text], input[type=password] { border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; box-shadow: 1px 1px 2px #333; -moz-box-shadow: 1px 1px 2px #333; -webkit-box-shadow: 1px 1px 2px #333; background: #fff; border: 2px solid #000; padding: 0 3px 0 3px; font: 11px Verdana, Arial, Helvetica, sans-serif; color: #666; }
+
+select { border: 2px solid #000; background: #fff; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; box-shadow: 1px 1px 2px #000; -moz-box-shadow: 1px 1px 2px #000; -webkit-box-shadow: 1px 1px 2px #000; padding: 3px; font: 11px Verdana, Arial, Helvetica, sans-serif; color: #666; }
+
+textarea { border: 2px solid #000; background: #fff; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; box-shadow: 1px 1px 2px #333; -moz-box-shadow: 1px 1px 2px #333; -webkit-box-shadow: 1px 1px 2px #333; padding: 3px; font: 11px Verdana, Arial, Helvetica, sans-serif; color: #666; }
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus { border: 2px solid #006600; }
+
+.fonte1 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #000; }
+.fonte2 { font: 11px Verdana, Arial, Helvetica, sans-serif;	color: #fff; }
+.fonte3 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #ff0000; }
+.fonte1_negrito { font: 11px Verdana, Arial, Helvetica, sans-serif;	color: #000; font-weight: bold; }
+.fonte2_negrito { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #fff; font-weight: bold; }
+.fonte3_negrito { font: 11px Verdana, Arial, Helvetica, sans-serif;	color: #ff0000; font-weight: bold; }
+.fonte_form { vertical-align: -6px; font-weight: bold; }
+.fonte_online { font: 13px Verdana, Arial, Helvetica, sans-serif; color: #000; font-weight: bold; }
+.fonte_facebook { font: 15px Verdana, Arial, Helvetica, sans-serif; color: #000; font-weight: bold; }
+
+.box { width: 100%; overflow: hidden; }
+.box .topo_esquerdo { background: url(../figuras/principal/box_topo_esquerdo.png) no-repeat 0% 0%; }
+.box .topo_direito { background: url(../figuras/principal/box_topo_direito.png) no-repeat 100% 0%; width: 100%; }
+.box .topo_meio { background: url(../figuras/principal/box_topo_meio.png) repeat-x 0% 0%; height: 53px; margin: 0 6px 0 6px; overflow: hidden; }
+.box .conteudo { background: #fff; padding: 0 10px 3px 10px; }
+.box .baixo_esquerdo { background: url(../figuras/principal/box_baixo_esquerdo.png) no-repeat 0% 0%; }
+.box .baixo_direito { background: url(../figuras/principal/box_baixo_direito.png) no-repeat 100% 0%; width: 100%; }
+.box .baixo_meio { background: url(../figuras/principal/box_baixo_meio.png) repeat-x 0% 0%; height: 10px; margin: 0 6px 0 6px; overflow: hidden; }
+.box .conteudo a, a:hover, a:visited { color: #000; font-weight: bold; }
+
+.box_branco { width: 100%; overflow: hidden; }
+.box_branco .topo_esquerdo { background: url(../figuras/principal/box_branco_topo_esquerdo.png) no-repeat 0% 0%; }
+.box_branco .topo_direito { background: url(../figuras/principal/box_branco_topo_direito.png) no-repeat 100% 0%; width: 100%; }
+.box_branco .topo_meio { background: #fff; height: 6px; margin: 0 6px 0 6px; overflow: hidden; }
+.box_branco .conteudo { background: #fff; padding: 0 10px 0 10px; }
+.box_branco .baixo_esquerdo { background: url(../figuras/principal/box_branco_baixo_esquerdo.png) no-repeat 0% 0%; }
+.box_branco .baixo_direito { background: url(../figuras/principal/box_branco_baixo_direito.png) no-repeat 100% 0%; width: 100%; }
+.box_branco .baixo_meio { background: url(../figuras/principal/box_branco_baixo_meio.png) repeat-x 0% 0%; height: 10px; margin: 0 6px 0 6px; overflow: hidden; }
+.box_branco .conteudo a, a:hover, a:visited { color: #000; font-weight: bold; }
+
+#usuario_normal { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; font-weight: bold; }
+#usuario_normal a:link { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; font-weight: bold; }
+#usuario_normal a:visited { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #000000; text-decoration: none;	font-weight: bold; }
+#usuario_normal a:hover { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; font-weight: bold; }
+
+#usuario_vip1 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #009933; text-decoration: none; font-weight: bold; }
+#usuario_vip1 a:link { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #009933; text-decoration: none; font-weight: bold; }
+#usuario_vip1 a:visited { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #009933; text-decoration: none; font-weight: bold; }
+#usuario_vip1 a:hover { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #009933; text-decoration: none; font-weight: bold; }
+
+#usuario_vip2 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #000066; text-decoration: none; font-weight: bold; }
+#usuario_vip2 a:link { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #000066; text-decoration: none; font-weight: bold; }
+#usuario_vip2 a:visited { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #000066; text-decoration: none; font-weight: bold; }
+#usuario_vip2 a:hover { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #000066; text-decoration: none; font-weight: bold; }
+
+#usuario_vip3 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #CC0000; text-decoration: none; font-weight: bold; }
+#usuario_vip3 a:link { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #CC0000; text-decoration: none; font-weight: bold; }
+#usuario_vip3 a:visited { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #CC0000; text-decoration: none; font-weight: bold; }
+#usuario_vip3 a:hover { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #CC0000; text-decoration: none; font-weight: bold; }
+
+#usuario_vip4 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #FF00FF; text-decoration: none; font-weight: bold; }
+#usuario_vip4 a:link { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #FF00FF; text-decoration: none; font-weight: bold; }
+#usuario_vip4 a:visited { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #FF00FF; text-decoration: none; font-weight: bold; }
+#usuario_vip4 a:hover { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #FF00FF; text-decoration: none; font-weight: bold; }
+
+#usuario_vip5 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #9933CC; text-decoration: none; font-weight: bold; }
+#usuario_vip5 a:link { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #9933CC; text-decoration: none; font-weight: bold; }
+#usuario_vip5 a:visited { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #9933CC; text-decoration: none; font-weight: bold; }
+#usuario_vip5 a:hover { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #9933CC; text-decoration: none; font-weight: bold; }
+
+#usuario_vip6 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #FF6600; text-decoration: none; font-weight: bold; }
+#usuario_vip6 a:link { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #FF6600; text-decoration: none; font-weight: bold; }
+#usuario_vip6 a:visited { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #FF6600; text-decoration: none; font-weight: bold; }
+#usuario_vip6 a:hover { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #FF6600; text-decoration: none; font-weight: bold; }
+
+#usuario_vip7 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #660000; text-decoration: none; font-weight: bold; }
+#usuario_vip7 a:link { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #660000; text-decoration: none; font-weight: bold; }
+#usuario_vip7 a:visited { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #660000; text-decoration: none; font-weight: bold; }
+#usuario_vip7 a:hover { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #660000; text-decoration: none; font-weight: bold; }
+
+#usuario_vip8 { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #666666; text-decoration: none; font-weight: bold; }
+#usuario_vip8 a:link { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #666666; text-decoration: none; font-weight: bold; }
+#usuario_vip8 a:visited { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #666666; text-decoration: none; font-weight: bold; }
+#usuario_vip8 a:hover { font: 11px Verdana, Arial, Helvetica, sans-serif; color: #666666; text-decoration: none; font-weight: bold; }

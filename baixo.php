@@ -1,0 +1,1 @@
+<div id="baixo_barra"><span class="baixo_barra_conteudo"><b>© <?=date("Y")?> centergol. Todos os direitos reservados.</b></span></div>
